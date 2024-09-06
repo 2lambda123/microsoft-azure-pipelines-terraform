@@ -6,10 +6,7 @@
   "author": "Microsoft Corporation",
   "helpMarkDown": "[Learn more about this task](https://aka.ms/devlabs/ado/tf/task/v4)",
   "category": "Deploy",
-  "visibility": [
-    "Build",
-    "Release"
-  ],
+  "visibility": ["Build", "Release"],
   "showEnvironmentVariables": true,
   "demands": [],
   "version": {
