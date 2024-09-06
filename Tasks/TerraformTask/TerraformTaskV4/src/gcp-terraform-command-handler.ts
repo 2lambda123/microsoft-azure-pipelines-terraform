@@ -51,7 +51,7 @@ export class TerraformCommandHandlerGCP extends BaseTerraformCommandHandler {
             let jsonKeyFilePath = this.getJsonKeyFilePath(command.serviceProvidername);
 
             process.env['GOOGLE_CREDENTIALS']  = `${jsonKeyFilePath}`;
-            process.env['GOOGLE_PROJECT']  = tasks.getEndpointDataParameter(command.serviceProvidername, "project", false);            
+            process.env['GOOGLE_PROJECT']  = tasks.getEndpointDataParameter(command.serviceProvidername, "project", false);
         }
     }
 }
